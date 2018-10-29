@@ -1,7 +1,7 @@
-var $item = $('.carousel-item');
+var $item = $('.carousel-item'); 
 var $wHeight = $(window).height();
 $item.eq(0).addClass('active');
-$item.height($wHeight);
+$item.height($wHeight); 
 $item.addClass('full-screen');
 
 $('.carousel img').each(function() {
